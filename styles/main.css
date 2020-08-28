@@ -6999,7 +6999,10 @@ Created using IcoMoon - icomoon.io
   transition: opacity 0.35s, transform 0.35s;
   transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
 }
-
+.gallery figure.cc-effect img {
+  width: 550px;
+  height: 400px;
+}
 .gallery figure.cc-effect:hover img {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
